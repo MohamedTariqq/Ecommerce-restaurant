@@ -1,0 +1,481 @@
+.numbers {
+  background-color: #a82d49;
+  padding: 25px 0px;
+  height: 170px;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.numbers .row {
+  margin: 35px 0px;
+}
+.numbers h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px 0px;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+}
+.numbers h6 {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/* Pride css sryle and Catg */
+.pride,
+.catg {
+  background-color: transparent;
+  padding: 25px 0px;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 60px;
+}
+.pride img,
+.catg {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.pride h2,
+.catg h2 {
+  font-size: 35px;
+  font-weight: bold;
+  width: 80%;
+  margin: 10px 0px;
+  color: #77132b;
+  font-family: "Cairo", sans-serif;
+  line-height: 50px;
+}
+.pride p,
+.catg p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+  font-family: "Cairo", sans-serif;
+  margin-top: 15px;
+}
+.pride button,
+.catg button {
+  background-color: #a82d49;
+  border: 1px solid #a82d49;
+  box-sizing: border-box;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.2s ease;
+}
+.pride button a,
+.catg button a {
+  display: block;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.pride button:hover a,
+.catg button:hover a {
+  color: #77132b;
+}
+.pride button:hover,
+.catg button:hover {
+  background-color: #fff;
+}
+/* Catg Css Style */
+
+.catg ul {
+  padding: 0px;
+}
+.catg ul li {
+  list-style: square;
+  font-family: "Cairo", sans-serif;
+  color: #333;
+  margin-top: 10px;
+}
+/* Story CSS STYLE */
+.story {
+  background: url(../../assets/1.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+  text-align: center;
+}
+.story .row {
+  margin: 50px 0px;
+}
+.story h2 {
+  font-size: 40px;
+  font-weight: bold;
+  width: 100%;
+  margin: 20px 0px;
+  color: #77132b;
+  font-family: "Cairo", sans-serif;
+  line-height: 50px;
+  text-align: center;
+}
+.story p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #444;
+  font-family: "Cairo", sans-serif;
+  margin-top: 15px;
+  margin: 20px 0px;
+}
+.story a {
+  color: #77132b;
+  font-size: 20px;
+  margin: 20px 0px;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+}
+/* blogs CSS Style */
+.blogs {
+  margin-top: 50px;
+  padding: 25px 0px;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+}
+.blogs .row:first-child {
+  text-align: center;
+  margin: 25px 0px;
+}
+.blogs h2 {
+  font-size: 45px;
+  font-weight: bold;
+  width: 100%;
+  margin: 10px 0px;
+  color: #77132b;
+  font-family: "Cairo", sans-serif;
+  line-height: 50px;
+}
+.blogs p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #444;
+  font-family: "Cairo", sans-serif;
+  margin-top: 15px;
+}
+.blogs .box {
+  border: 1px solid #f6f6f6;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.blogs .box img {
+  max-width: 100%;
+}
+.blogs .box h5 {
+  color: #444;
+  font-family: "Cairo", sans-serif;
+  font-size: 22px;
+  margin: 15px 0px;
+}
+.blogs .box span {
+  display: block;
+  color: #444;
+  font-family: "Cairo", sans-serif;
+  font-size: 16px;
+  margin: 10px 0px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.blogs .box h6 {
+  color: #540014;
+  font-size: 22px;
+  font-family: "Cairo", sans-serif;
+}
+.blogs button {
+  background-color: #a82d49;
+  border: 1px solid #a82d49;
+  box-sizing: border-box;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.2s ease;
+}
+.blogs button a {
+  display: block;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.blogs button:hover {
+  background-color: transparent;
+}
+
+.blogs button:hover a {
+  color: #77132b;
+}
+/* Slider CSS STYLE */
+.slider {
+  background-color: #a82d49;
+  border: 1px solid #a82d49;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 50px 0px;
+}
+.slider .carousel {
+  background-color: #fff;
+  margin: 40px 0px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 25px 0px;
+}
+.slider img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 20px 0px;
+  margin-bottom: 180px;
+}
+.slider p {
+  color: #212121;
+  font-size: 17px;
+  line-height: 30px;
+}
+.slider span {
+  color: #77132b !important;
+  display: block !important;
+  margin: 15px 0px !important;
+  text-transform: uppercase !important;
+  font-size: 17px !important;
+}
+.slider .carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.slider .carousel-indicators button {
+  width: 15px;
+  background-color: #fff;
+  height: 15px;
+  border: 1px solid #77132b;
+  margin: 5px;
+  border-radius: 50%;
+  margin: 5px 5px 15px 5px;
+}
+.slider .carousel-indicators button:hover {
+  background-color: #77132b;
+}
+.slider span {
+  color: #fff;
+  display: block;
+  margin: 15px 0px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+/* Asks CSS Style */
+.asks .head {
+  height: auto;
+  padding: 80px 0px;
+  text-align: center;
+  color: #43121d;
+  font-size: 45px;
+  line-height: 46px;
+  font-weight: bold;
+  font-family: "Cairo", sans-serif;
+}
+.asks h5 span {
+  color: #f98169;
+  font-size: 28px;
+  font-family: ubuntu;
+  font-weight: 300;
+  vertical-align: middle;
+}
+.asks h5 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #212121;
+}
+.asks P {
+  font-size: 16px;
+  color: #555;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Cairo", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/* View CSS style */
+.view {
+  background: url(../../assets/2.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  background-position: 0px;
+}
+.overlay {
+  background: #151515;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.view .overlay {
+  background: #000;
+  opacity: 0.4;
+}
+.view h4 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 20px;
+}
+.view button {
+  background-color: #a82d49;
+  border: 1px solid #a82d49;
+  box-sizing: border-box;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.2s ease;
+}
+.view button a {
+  display: block;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.view button:hover {
+  background-color: transparent;
+}
+
+.view button:hover a {
+  color: #77132b;
+}
+/* subscribe CSS style */
+.subscribe {
+  padding: 120px 0 50px 0;
+}
+.subscribe h1 {
+  color: #43121d;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  margin: 0px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+.subscribe p {
+  color: #555;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 0.2px;
+  padding: 25px 0 15px;
+  text-align: center;
+}
+.form {
+  width: 55%;
+  margin: 0px auto;
+}
+.form input {
+  height: 50px;
+  padding: 0 20px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  background: transparent;
+  border: 3px solid #e5e5e5;
+  color: #000;
+  font-weight: 700;
+}
+.form button {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  font-size: 14px;
+  height: 50px;
+  background: #a82d49;
+  border: 3px solid #a82d49;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+}
+/* Footer CSs Style */
+.footer {
+  background: #a82d49;
+  padding: 25px 0 60px;
+}
+.footer .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.footer a {
+  color: #fff;
+  padding: 0 30px 0 0;
+}
+
+.footer a,
+a:hover,
+a:focus,
+button,
+button:hover {
+  outline: 0;
+  text-decoration: none;
+  transition: 0.4s;
+  color: #fff !important;
+}
+.footer .footer-social {
+  padding-left: 33%;
+  margin-top: 30px;
+  text-align: center !important;
+}
+
+.footer .footer-social a {
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-top: 30px;
+  color: #fff;
+}
+.footer-copy {
+  margin-top: 30px;
+  background: #a82d49;
+  padding-bottom: 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
